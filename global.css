@@ -1,0 +1,98 @@
+{margin: 0; padding: 0}
+body{
+	background-color: #f5683d;	
+	padding-top: 20vh;
+}
+.form-container{
+	width: 300px;
+	height: auto;
+	padding: 40px 30px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 #000;
+	margin: auto;
+	position: relative;
+}
+
+.user-img{
+	background:url('user.png') no-repeat;
+	width: 70px;
+	height: 70px;
+	background-size: 100%;
+	position: absolute;
+	top: -40px;
+	left: 140px;
+}
+
+ul.list{
+	list-style-type: none;
+	text-align: center;
+}
+
+ul.list li{
+	width: 200px;
+	margin-bottom: 20px; 
+}
+
+ul.list li input{
+	width: 250px;
+	text-align: center;
+	padding-top: 50px 0px;
+	border: none;
+	background-color: #d3d3d3;
+	border-radius: 10px;
+}
+
+ul.list li input[type="button1"]{
+	background-color: #999900;
+	color: #fff;
+}
+
+ul.list li:nth-child(5){
+	color: red;
+}
+
+ul.list li input[type="button2"]{
+	background-color: #000080;
+	color: #fff;
+}
+
+ul.list li input[type="button3"]{
+	background-color: #FF0000;
+	color: #fff;
+}
+
+ul.list li input[type="button4"]{
+	background-color: #228B22;
+	color: #fff;
+}
+
+.facebook-button {
+  background: url('https://2.bp.blogspot.com/-lFFvYHv-Z8w/WAOFS0P5FdI/AAAAAAAAF68/Aiv0D5NkUKIbL3_6G42LZm1iQ6co1tmgACLcB/s320/facebook-16px.png')  center no-repeat;
+  position: relative;
+
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 70%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
